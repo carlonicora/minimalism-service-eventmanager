@@ -1,0 +1,29 @@
+{
+  "name": "carlonicora/minimalism-service-eventmanager",
+  "description": "Event Manager service for minimalism",
+  "version": "1.0.0",
+  "homepage": "https://carlonicora.com",
+  "time": "2022-05-25",
+  "license": "MIT",
+  "type": "library",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Carlo Nicora",
+      "email": "carlo@carlonicora.com",
+      "homepage": "https://carlonicora.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CarloNicora\\Minimalism\\Services\\EventManager\\":"src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "carlonicora/jsonapi": "~3",
+    "carlonicora/minimalism": "~13.0",
+    "carlonicora/minimalism-service-rabbitmq": "~5.0"
+  }
+}
